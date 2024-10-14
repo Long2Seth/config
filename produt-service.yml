@@ -1,3 +1,4 @@
+#For product service 
 Spring:
   datasource:
     url: ${dg_url}

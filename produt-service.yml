@@ -1,7 +1,13 @@
 #For product service 
-Spring:
+spring:
   datasource:
-    url: ${dg_url}
-    username: ${dg_username}
+    url: ${db_url}
+    username: ${db_username}
     password: ${db_password}
+    driverClassName: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
 

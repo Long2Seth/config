@@ -1,0 +1,6 @@
+Spring:
+  datasource:
+    url: ${dg_url}
+    username: ${dg_username}
+    password: ${db_password}
+
